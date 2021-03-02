@@ -1,0 +1,217 @@
+{
+  "id": "0d803f6a-2c85-426b-99c6-246d1d934906",
+  "version": "2.0",
+  "name": "HuggyColocarFiltro",
+  "url": "https://www.huggy.app/?return=https%3A%2F%2Flegacy.huggy.app%2Fpanel%2F",
+  "tests": [{
+    "id": "767d2605-f45a-4ac8-9b9f-a79846577e50",
+    "name": "Get_link",
+    "commands": [{
+      "id": "969bb276-d9a9-4074-a222-1b20ee8422c8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.huggy.app/panel/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dff3a377-022f-4072-a168-925c79c945eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e24ad11b-a300-4b12-aba0-581eae7ec9d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menubar-config > .module_3KJrf",
+      "targets": [
+        ["css=#menubar-config > .module_3KJrf", "css:finder"],
+        ["xpath=//a[@id='menubar-config']/div", "xpath:idRelative"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b45a983-487f-46ff-abb4-b3ac91dda24c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Agentes virtuais",
+      "targets": [
+        ["linkText=Agentes virtuais", "linkText"],
+        ["css=.item_2aZyK:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Agentes virtuais')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/virtualAgents/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Agentes virtuais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f21e73cb-faed-4dfe-afca-ab83ddbf596f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Agentes virtuais",
+      "targets": [
+        ["linkText=Agentes virtuais", "linkText"],
+        ["css=.item_2aZyK:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Agentes virtuais')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/virtualAgents/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Agentes virtuais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f5ffb0-9674-4a3b-bbdf-511675186a2e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Tabulações",
+      "targets": [
+        ["linkText=Tabulações", "linkText"],
+        ["css=.item_2aZyK:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabulações')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/tabulations/')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabulações')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b04298-20b4-43fd-ba7f-5a7a9d6abde1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Tabulações",
+      "targets": [
+        ["linkText=Tabulações", "linkText"],
+        ["css=.item_2aZyK:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabulações')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/tabulations/')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabulações')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c6d300f-e825-49ad-9b6c-f3b005803a81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Canais",
+      "targets": [
+        ["linkText=Canais", "linkText"],
+        ["css=.item_2aZyK:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Canais')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/channels/')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Canais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d62c12-ba2d-469f-9ca0-2534f72c5266",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Canais",
+      "targets": [
+        ["linkText=Canais", "linkText"],
+        ["css=.item_2aZyK:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Canais')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/channels/')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Canais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "687c02bd-7f53-4e02-9b99-b19c1209a55b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Canais",
+      "targets": [
+        ["linkText=Canais", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//a[contains(text(),'Canais')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div/div[2]/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/panel/config/channels/')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Canais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e87f977-8ab5-42a7-b27c-94a8696e4656",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-6:nth-child(7) .channel_1WciL",
+      "targets": [
+        ["css=.col-lg-6:nth-child(7) .channel_1WciL", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[6]/div[3]/main/div[2]/div/div[2]/div/div/div[7]/a/div", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e4d447-a15b-49ed-9a39-bbd03f0ee685",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7775b37-84ff-4eda-97d5-1afd7240b2bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.htable-column-label:nth-child(2)",
+      "targets": [
+        ["css=.htable-column-label:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='panel']/div[5]/div/div/div/div/div/screenside/div/div/div[2]/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf70585-005a-49fb-9670-3e51fbc16595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-item:nth-child(9) .ms-choice > span",
+      "targets": [
+        ["css=.form-item:nth-child(9) .ms-choice > span", "css:finder"],
+        ["xpath=//body[@id='panel']/div[5]/div/div/div/div/div/reginaldo[2]/div/div/div[3]/form/div[9]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88613f26-4caf-472c-a286-f121beca8883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-item:nth-child(9) li:nth-child(22) > label",
+      "targets": [
+        ["css=.form-item:nth-child(9) li:nth-child(22) > label", "css:finder"],
+        ["xpath=//body[@id='panel']/div[5]/div/div/div/div/div/reginaldo[2]/div/div/div[3]/form/div[9]/div/div/div/ul/li[22]/label", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/ul/li[22]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d08e448e-dd7f-461c-b85d-60eba12d2a04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hgs-right > .btn",
+      "targets": [
+        ["css=.hgs-right > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//body[@id='panel']/div[5]/div/div/div/div/div/reginaldo[2]/div/div/div[4]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a2a9b6a8-b10d-4bdd-a961-08484b6206a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["767d2605-f45a-4ac8-9b9f-a79846577e50"]
+  }],
+  "urls": ["https://www.huggy.app/?return=https%3A%2F%2Flegacy.huggy.app%2Fpanel%2F"],
+  "plugins": []
+}
