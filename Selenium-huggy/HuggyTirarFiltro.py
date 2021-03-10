@@ -34,7 +34,7 @@ class ChromeAutenticao:
         self.driver.find_element(By.CSS_SELECTOR, ".Button_button_3qErG:nth-child(3)").click()    # CLICAR NO INPUT DE EMAIL
         time.sleep(1) # ESPERA 1 SEGUNDOS ANTES DE CLILCAR NO INPUT A SENHA
         self.driver.find_element(By.ID, "input_17").click()     # CLILCAR NO INPUT SENHA
-        self.driver.find_element(By.ID, "input_17").send_keys("Bra123456") # COLOCAR A SENHA NO INPUT SENHA
+        self.driver.find_element(By.ID, "input_17").send_keys("aaaaddddaaaaa") # COLOCAR A SENHA NO INPUT SENHA
         time.sleep(1) # ESPERA 1 SEGUNDOS ANTES DE CLILCAR NO INPUT A SENHA
         self.driver.find_element(By.CSS_SELECTOR, ".Button_block_2cQNN").click() # CLICAR NO BOTÃO DE LOGIN E FAZER LOGIN
 
