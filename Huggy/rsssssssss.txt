@@ -1,0 +1,57 @@
+huggy:
+https://www.huggy.app/
+documentação da interface gráfica:
+https://help.huggy.io/
+v2 apiary:
+https://huggy.docs.apiary.io/#
+v2:
+https://developers.huggy.io/API/api-v2.html
+v3:
+https://developers.huggy.io/API/api-v3.html
+
+/a grosso modo utilizo o v3 para atualizar e popular os campos personalizados, v2 nao me permite isso (so consigo atualizar os campos padroes do huggy, ou seja, nome/email/celular/mobile)
+
+
+65% DOS CLIENTES SÃO Grupo BRA
+O restante é do Joao Victor
+
+/nao é possivel fazer pesquisa por campos personalizados
+/nome do meu contato foi alterado pelo codigo da nova conta
+/só utilizamos o zapzap, nada de telegram
+/clientes que chamam no numero do JV, ficam com departamento JV
+/clientes que chaman no numero da BRA (universal), vai ser checado o departamento pelo codigo de assessor
+/quem chama no numero de captação nao está nos contatos, ou seja, nao é cliente ainda. É um lead, é definido o departamento captação pelo numero em que a pessoa entra em contato
+/entender sobre flow de entrada e flow de saída (isso é definido por numero)
+/msgs que servem para spam precisam passar pela autorizacao do zapzap
+/analitico quem utiliza mais sao os sócios
+/aplicativos mostra integraçoes mas nao utilizamos
+/eu consigo definir Flow geral de entrada e saída e Flow por CANAIS (Números de atendimento)
+/consertar limites de tempo maximo de espera
+
+
+Configurações:
+Conta:
+-Só mexemos nos agentes
+
+Personalizacoes
+-Vamos mexer nas respostas
+-Feriado tem pegadinha
+-Sitema vamos mexer depois
+-Departamento sempre mexemos
+-Canais é interessante conhecer
+-Campos personalizados sempre mexemos e é obrigatório conhecer
+
+
+API:
+-Contatos (Cria/Atualiza/ Força os contatos a passarem por fluxos*)
+-Chat (Por enquanto nao fazer nada, só tentamos iniciar um chat via API com o cliente*)
+-Flow (Apenas forçamos o contato a passar pelo flow)
+
+Automatizações > Projetos > Flows
+
+
+pipedrive:
+
+
+
+

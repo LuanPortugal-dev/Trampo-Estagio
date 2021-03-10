@@ -1,0 +1,73 @@
+ numero = ['99994-6999'] =>
+		||            
+	Atendimento_entrada        
+		||
+    	       FLOWS:
+		||
+	fora_horario => add tag, enviar msg pronta / enviar msg pronta, triagem de departamento !!!!!!
+		||
+	dep_guiga => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_bernard => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_alexand => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_peru => defini o apartamento, coloca na fila !!!!!!!             ===================================== FLOW DE ATENDIMENTO DE SAIDA
+		||
+	dep_famfam => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_caio => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_junqui => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_bra => defini o apartamento, coloca na fila !!!!!!!
+		||
+	atend_jv => defini apartamento, fora_horario_jv, colocar na fila
+
+
+numero = ['98213-4520']
+	        ||
+	    captacao
+	        ||
+	     FLOWS:
+	        ||
+	 captacao => definir apartamento, colocar na fila
+
+
+numero = ['97282-3809']
+	        ||
+	  atendimento_valendo
+		||
+	  atendimento_jv								============ FLOW DE SAÍDA DE JV
+		||
+	      FLOWS:
+		||
+	  atend_entrada_jv =>definir departamento, fora_horario_jv, colocar na fila
+
+
+numero = ['3958-1228']
+		||
+	Atendimento_entrada        
+		||
+    	       FLOWS:
+		||
+	fora_horario => add tag, enviar msg pronta / enviar msg pronta, triagem de departamento !!!!!!
+		||
+	dep_guiga => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_bernard => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_alexand => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_peru => defini o apartamento, coloca na fila !!!!!!!             ===================================== FLOW DE ATENDIMENTO DE SAIDA
+		||
+	dep_famfam => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_caio => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_junqui => defini o apartamento, coloca na fila !!!!!!!
+		||
+	dep_bra => defini o apartamento, coloca na fila !!!!!!!
+		||
+	atend_jv => defini apartamento, fora_horario_jv, colocar na fila
+	

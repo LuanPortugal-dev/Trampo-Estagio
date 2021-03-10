@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|                                   
+DEPARTAMENTOS USADOS REALMENTE: dep_guiga, dep_bernard, dep_alexand, dep_famfam, dep_caio, dep_junqui, dep_bra, atend_jv|														    |
+															|"""""""""""""""""""""""""""""""""""""""""""""SUGESTÕES ATT NOMES  2.0""""""""""""""""""""""""""""""""""""""""""""""|
+------------------------------------------------------------------------------------------------------------------------|														    |
+															|----------------------------------CRIAR UM FLOW PARA TODOS OS DEPARTAMENTOS----------------------------------------|
+														        |														    |
+""""""""""""""""""""""""""""""""""""""""""""""""""ATENDIMENTO_VALENDO"""""""""""""""""""""""""""""""""""""""""""""""""""|. departamento_guiga  ==>  dep_guiga										    |
+															|. departamento_bernard  ==>  dep_bernard 									    |
+															|. departamento_alexandre  ==>  dep_alexandre									    |
+ATENDIMENTO_ENTRADA => ### TODOS OS FLOWS POSITIVOS ###									|. departamento_famfam  ==>  dep_famfam										    |
+															|. departamento_peu = =>  dep_peu										    |
+															|. departamento_david  ==>  dep_david										    |
+															|. departamento_caio  ==>  dep_caio										    |
+															|. departamento_junqueira  ==>  dep_junqueira									    |
+FORA_HORARIO => ### TODOS OS FLOWS POSITIVOS ###									|. departamento_bra  ==>  dep_bra									    	    |
+															|. atendimento_entrada_jv  ==>  atend_jv								            |
+															|-------------------------------------------------------------------------------------------------------------------|
+ATENDIMENTO_SAIDA => ### TODOS OS FLOWS POSITIVOS ###									|
+															|
+															|
+FLOW DE SAÍDA FILTRO JV => ### TODOS OS FLOWS POSITIVOS ###								|
+															|
+															|
+ATENDIMENTO_ENTRADA_JV => ### TODOS OS FLOWS POSITIVOS ###       OBS: VERIFICAR O IF/ELSE				|
+															|
+															|
+FORA_HORARIO_JV => ### TODOS OS FLOWS POSITIVOS ###									|
+															|
+															|
+BOAS VINDAS TEMPLATE DANI/ERIK => ### TODOS OS FLOWS POSITIVOS ###							|
+															|
+															|     
+TRIAGEM DE DEPARTAMENTOS => ### TODOS OS FLOWS POSITIVOS ###								|
+															|
+															|
+SPAM DE MSGS => ### TODOS OS FLOWS POSITIVOS ###                                             				|
+															|
+                                                                                                                        |
+BOAS VINDAS TEMPLATE JV/PRI =>  ### TODOS OS FLOWS POSITIVOS ###        					        |
+------------------------------------------------------------------------------------------------------------------------|
+															|
+CAPTAÇÃO => ### TODOS OS FLOWS POSITIVOS ###                                                                            |
+------------------------------------------------------------------------------------------------------------------------|
+                                                                                                                        |
+SAIDA => ### TODOS OS FLOWS POSITIVOS ###                                                                               |
+------------------------------------------------------------------------------------------------------------------------|
